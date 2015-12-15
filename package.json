@@ -15,7 +15,14 @@
     "ajax",
     "promise"
   ],
-  "author": "jurgo.boemo@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jurgob/josent"
+  },
+  "author": "Jurgo Boemo <jurgo.boemo@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jurgob/josent"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.3.17",
