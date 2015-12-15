@@ -106,7 +106,7 @@
 
 	  return scope;
 	})();
-	window.josent = josent;
+	if ((typeof window === 'undefined' ? 'undefined' : _typeof(window)) === 'object') window.josent = josent;
 	exports.default = josent;
 
 /***/ },

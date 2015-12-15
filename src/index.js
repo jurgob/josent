@@ -57,5 +57,5 @@ var josent = (function() {
     return scope;
 
   })();
-window.josent = josent;
+if(typeof(window) === 'object' ) window.josent = josent;
 export default josent;
