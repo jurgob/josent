@@ -1,6 +1,6 @@
 {
   "name": "josent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "josent (json simple client) is a client based on json and Promises",
   "main": "index.js",
   "scripts": {
