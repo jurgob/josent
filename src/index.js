@@ -1,5 +1,6 @@
 'use strict';
-import fetch from 'isomorphic-fetch'
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
 
 function objectParams2url(params) {
     return Object.keys(params)
@@ -58,4 +59,6 @@ var josent = (function() {
 
   })();
 if(typeof(window) === 'object' ) window.josent = josent;
-export default josent;
+
+// export default josent;
+module.exports = josent;

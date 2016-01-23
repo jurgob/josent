@@ -2,7 +2,7 @@
   "name": "josent",
   "version": "1.0.4",
   "description": "josent (json simple client) is a client based on json and Promises",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --colors --watch"
@@ -31,6 +31,7 @@
     "webpack": "^1.12.9"
   },
   "dependencies": {
-    "isomorphic-fetch": "^2.2.0"
+    "es6-promise": "^3.0.2",
+    "isomorphic-fetch": "^2.2.1"
   }
 }
